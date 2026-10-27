@@ -1,0 +1,1 @@
+The trained model will be saved here after running python train_model.py.

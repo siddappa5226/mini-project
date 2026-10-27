@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+
+dataset/images/*
+!dataset/images/README.txt
+dataset/labels.csv
+
+models/*.joblib
