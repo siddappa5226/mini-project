@@ -10,7 +10,7 @@ This is a research/learning prototype for the project:
 - The demo temperature mode is simulated. It is not real storage monitoring.
 - A damage-grade classifier alone does not predict biological recovery. Recovery prediction requires separately labelled recovery data.
 
-## 1. Open the project
+## 1. Open t  he project
 Extract the ZIP. In VS Code choose File > Open Folder and select `corneal_ai_project`.
 
 ## 2. Create and activate a virtual environment (Windows PowerShell)
