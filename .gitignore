@@ -6,3 +6,11 @@ dataset/images/*
 dataset/labels.csv
 
 models/*.joblib
+
+# Local Python environments
+.venv/
+venv/
+
+# Dataset image files
+*.tiff
+*.tif
