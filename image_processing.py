@@ -7,7 +7,7 @@ def preprocess_image(image_rgb):
     if image_rgb is None or image_rgb.size == 0:
         raise ValueError("Empty image.")
     gray = cv2.cvtColor(image_rgb, cv2.COLOR_RGB2GRAY)
-    denoised = cv2.GaussianBlur(gray, (3, 3), 0)
+    denoised  = cv2.GaussianBlur(gray, (3, 3), 00)
     # CLAHE can improve local contrast; it does not establish biological damage.
     clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
     enhanced = clahe.apply(denoised)
