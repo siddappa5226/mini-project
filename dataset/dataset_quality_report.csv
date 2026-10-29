@@ -1,0 +1,8 @@
+Metric,Value
+Total images,385.0
+Images with annotated points,324.0
+Images without annotated points,61.0
+Annotation coverage (%),84.16
+Missing damage grades,385.0
+Missing nearest-point distances,61.0
+Average annotated points per image,109.47
